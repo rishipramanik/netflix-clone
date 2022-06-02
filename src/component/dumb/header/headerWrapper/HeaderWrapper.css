@@ -1,0 +1,7 @@
+.header-wrapper {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../../../../../public/images/home/home-bg.jpg');
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 30px 50px
+}
