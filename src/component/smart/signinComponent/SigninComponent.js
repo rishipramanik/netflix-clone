@@ -14,7 +14,7 @@ const SigninComponent = ({ children, ...restProps }) => {
         <SignTitle>SignIn</SignTitle>
         <SignInput type="text" placeholder="email" />
         <SignInput type="password" placeholder="Password" autoComplete='off' />
-        <SignButton>Sign IN</SignButton>
+        <SignButton>Sign In</SignButton>
         <SignText>New to Netflix?<SignLink> Sign up Now </SignLink></SignText>
         <SignCaptcha>This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</SignCaptcha>
       </form>

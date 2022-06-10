@@ -1,0 +1,15 @@
+.sign-form-base {
+    display: flex;
+    flex-direction: column;
+    max-width: 314px;
+    width: 100%;
+}
+
+.sign-form-wrapper {
+    margin: auto;
+    max-width: 314px;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 4px;
+    padding: 60px 68px 40px;
+    min-height: 570px;
+}
