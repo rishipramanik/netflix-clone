@@ -1,0 +1,9 @@
+.sign-link {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

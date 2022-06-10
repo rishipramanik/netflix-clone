@@ -14,14 +14,39 @@ const JumboItem = ({
   ...restProps
 }) => {
   return (
-    <div className="jumbo-item">
-      <div>
+    <div className="jumbo-item">{
+      alignment === true && (
+        <div>
         <JumboTitle>{title}</JumboTitle>
         <JumboSubHeading>{subheading}</JumboSubHeading>
       </div>
-      <div>
+      )
+    }
+    {
+      alignment === false && (
+        <div className="jumbo-image-wrapper">
         <JumboImage src={imagesrc} alt={imageAlt} />
       </div>
+      )
+    }
+    {
+      alignment === true && (
+        <div>
+        <JumboImage src={imagesrc} alt={imageAlt} />
+      </div>
+        
+      )
+    }
+    {
+      alignment === false && (
+        <div>
+        <JumboTitle>{title}</JumboTitle>
+        <JumboSubHeading>{subheading}</JumboSubHeading>
+      </div>
+      )
+    }
+      
+      
     </div>
   );
 };

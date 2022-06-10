@@ -1,0 +1,27 @@
+.footer-section {
+    background-color: black;
+}
+
+.footer-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 56px;
+}
+
+.footer-wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text {
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}

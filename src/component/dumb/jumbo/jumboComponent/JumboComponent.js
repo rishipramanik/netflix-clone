@@ -1,4 +1,5 @@
 import React from "react";
+import Separator from "../../separator/Separator";
 import JumboItem from "../jumboItem/JumboItem";
 import './JumboComponent.css'
 
@@ -33,12 +34,16 @@ const data = [
 const JumboComponent = () => {
   return (
     <div className="jumbo-component">
-      {data.map((item) => (
+      {data.map((item:{...}, index:number) => (
+        <>
         <JumboItem
+          alignment={index%2===0}
           title={item.title}
           subheading={item.subheading}
           imagesrc={item.imagesrc}
         />
+        <Separator />
+        </>
       ))}
     </div>
   );
